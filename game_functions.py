@@ -189,7 +189,7 @@ def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
     """Respond to ship being hit by alien."""
     if stats.ships_left > 0:
         # Decrement ship_left.
-        stats.ship_left -= 1
+        stats.ships_left -= 1
 
         # Update scoreboard.
         sb.prep_ships()
